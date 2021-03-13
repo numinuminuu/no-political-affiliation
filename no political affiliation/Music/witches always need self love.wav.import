@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/witches always need self love.wav-2ab2f05f0b3b0289c6b6ca6846d70cba.sample"
+
+[deps]
+
+source_file="res://Music/witches always need self love.wav"
+dest_files=[ "res://.import/witches always need self love.wav-2ab2f05f0b3b0289c6b6ca6846d70cba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Agnes_Level1.gd" type="Script" id=1]
+[ext_resource path="res://Music/just stop and breathe a minute.wav" type="AudioStream" id=2]
+[ext_resource path="res://Sprites/Game/GUI/background.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Game/GUI/arrow.png" type="Texture" id=4]
+
+[node name="agnes_level1" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true
+
+[node name="background" type="Sprite" parent="."]
+scale = Vector2( 0.266667, 0.277778 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="arrow" type="Sprite" parent="."]
+position = Vector2( 362, 500 )
+rotation = 1.5708
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="arrow2" type="Sprite" parent="."]
+position = Vector2( 462, 500 )
+rotation = 3.14159
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="arrow3" type="Sprite" parent="."]
+position = Vector2( 562, 500 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="arrow4" type="Sprite" parent="."]
+position = Vector2( 662, 500 )
+rotation = -1.5708
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
